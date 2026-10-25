@@ -1,0 +1,281 @@
+{
+  "algorithm": "gray-bgr-opencv-sobel3-float64-mean-v1",
+  "full_videos": true,
+  "assumed_flicker_windows_seconds_inclusive": [
+    [
+      50.0,
+      70.0
+    ],
+    [
+      150.0,
+      170.0
+    ],
+    [
+      250.0,
+      270.0
+    ]
+  ],
+  "note": "Explorative Merkmalsanalyse; keine Frame-Labels oder Klassifikationsgenauigkeit.",
+  "videos": [
+    {
+      "video": "AT012",
+      "label": "Good",
+      "frames": 8753,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.12,
+      "interlaced_frames": 8753,
+      "all_frames": {
+        "frames": 8753,
+        "sobel_mean": 21.754837331709385,
+        "sobel_median": 22.93531685925726,
+        "sobel_q10": 17.220374333612344,
+        "sobel_q90": 24.46690571985735,
+        "brightness_mean": 70.99161475793174
+      },
+      "outside_assumed_flicker": {
+        "frames": 7250,
+        "sobel_mean": 22.56629245414059,
+        "sobel_median": 23.003872703497656,
+        "sobel_q10": 20.003600998246974,
+        "sobel_q90": 24.31115316870026,
+        "brightness_mean": 76.33380481355098
+      }
+    },
+    {
+      "video": "ESC01",
+      "label": "Good",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 21.448503963952383,
+        "sobel_median": 22.645952389364524,
+        "sobel_q10": 16.62585553741055,
+        "sobel_q90": 24.34802175666886,
+        "brightness_mean": 58.99378465725691
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 22.459489493836053,
+        "sobel_median": 22.96769399559658,
+        "sobel_q10": 20.00919854578508,
+        "sobel_q90": 24.426879850311796,
+        "brightness_mean": 63.68832668716865
+      }
+    },
+    {
+      "video": "ESC04",
+      "label": "Good",
+      "frames": 8753,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.12,
+      "interlaced_frames": 8753,
+      "all_frames": {
+        "frames": 8753,
+        "sobel_mean": 20.44651594803337,
+        "sobel_median": 21.379014803664774,
+        "sobel_q10": 18.652323394289873,
+        "sobel_q90": 22.01295326702404,
+        "brightness_mean": 56.48931182671893
+      },
+      "outside_assumed_flicker": {
+        "frames": 7250,
+        "sobel_mean": 21.271159041661512,
+        "sobel_median": 21.4278536712862,
+        "sobel_q10": 20.305945063249446,
+        "sobel_q90": 22.04294884547496,
+        "brightness_mean": 60.81705293708759
+      }
+    },
+    {
+      "video": "ESC16",
+      "label": "Good",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 19.41970974653916,
+        "sobel_median": 20.35271041038394,
+        "sobel_q10": 16.077062329964804,
+        "sobel_q90": 21.576826535673064,
+        "brightness_mean": 54.32331570437118
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 20.278484459059058,
+        "sobel_median": 20.559537776410334,
+        "sobel_q10": 18.610104132284526,
+        "sobel_q90": 21.64644653292162,
+        "brightness_mean": 58.39221007289054
+      }
+    },
+    {
+      "video": "ESC19",
+      "label": "Good",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 20.867412308518038,
+        "sobel_median": 21.817719348460336,
+        "sobel_q10": 15.672156976598346,
+        "sobel_q90": 24.49304485147144,
+        "brightness_mean": 59.88368573266806
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 21.643204714460612,
+        "sobel_median": 22.000717601866782,
+        "sobel_q10": 18.627223324740612,
+        "sobel_q90": 24.534153278197245,
+        "brightness_mean": 64.52804608120171
+      }
+    },
+    {
+      "video": "ESC02",
+      "label": "Bad",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 20.395222875760762,
+        "sobel_median": 21.3703908770319,
+        "sobel_q10": 16.764550983446416,
+        "sobel_q90": 22.257380299315926,
+        "brightness_mean": 66.1389761785159
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 21.330175595890626,
+        "sobel_median": 21.55964802921133,
+        "sobel_q10": 20.74441257199349,
+        "sobel_q90": 22.294246489451947,
+        "brightness_mean": 71.62142662637376
+      }
+    },
+    {
+      "video": "ESC05",
+      "label": "Bad",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 20.22930337455499,
+        "sobel_median": 20.5642289720931,
+        "sobel_q10": 11.551100690269358,
+        "sobel_q90": 25.333336707544692,
+        "brightness_mean": 65.8573937374169
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 21.030851038510274,
+        "sobel_median": 20.99258151126471,
+        "sobel_q10": 17.197178027705554,
+        "sobel_q90": 25.323413715529128,
+        "brightness_mean": 72.16177767814717
+      }
+    },
+    {
+      "video": "ESC06",
+      "label": "Bad",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 15.99093305871145,
+        "sobel_median": 16.339389205795293,
+        "sobel_q10": 14.33963086990403,
+        "sobel_q90": 17.546044790436735,
+        "brightness_mean": 54.27950745544977
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 16.44714909832851,
+        "sobel_median": 16.4799956936246,
+        "sobel_q10": 15.320214491833852,
+        "sobel_q90": 17.60949019861403,
+        "brightness_mean": 58.54315821479047
+      }
+    },
+    {
+      "video": "ESC09",
+      "label": "Bad",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 27.983671473987204,
+        "sobel_median": 30.480353607906604,
+        "sobel_q10": 17.98230408699982,
+        "sobel_q90": 33.05152161198621,
+        "brightness_mean": 68.13383296808392
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 29.885353075313883,
+        "sobel_median": 31.22419362516359,
+        "sobel_q10": 24.68656678382197,
+        "sobel_q90": 33.149719689759316,
+        "brightness_mean": 74.0071123425629
+      }
+    },
+    {
+      "video": "ESC18",
+      "label": "Bad",
+      "frames": 8752,
+      "fps": 25.0,
+      "width": 720,
+      "height": 576,
+      "duration_seconds": 350.08000000000004,
+      "interlaced_frames": 8752,
+      "all_frames": {
+        "frames": 8752,
+        "sobel_mean": 19.468750675521306,
+        "sobel_median": 20.04213080987391,
+        "sobel_q10": 15.184679609975435,
+        "sobel_q90": 23.202108248913255,
+        "brightness_mean": 54.12367970020654
+      },
+      "outside_assumed_flicker": {
+        "frames": 7249,
+        "sobel_mean": 20.138675521252235,
+        "sobel_median": 20.230062062594598,
+        "sobel_q10": 16.959298256156735,
+        "sobel_q90": 23.249235637149315,
+        "brightness_mean": 57.71810194006644
+      }
+    }
+  ]
+}
