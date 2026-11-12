@@ -1,10 +1,10 @@
-# Bildqualität im Augenhintergrundvideo
+# Laplace-Filter für Augenhintergrundvideos
 
 Projektfach an der Hochschule Niederrhein. Stand vom 12. November 2026.
 
-Der Wochenversuch untersucht, wie sich ein fester zentraler Bildausschnitt auf Sobel, Grauwertkontrast, Helligkeit und Laplace auswirkt. Für jedes der zehn Kursvideos werden dieselben Frames einmal im Vollbild und einmal im mittleren Viertel der Bildfläche ausgewertet.
+Der Wochenversuch untersucht den mittleren Betrag der Laplace-Antwort für zehn Kursvideos. Wir vergleichen dieselben Frames im Vollbild und im zentralen Viertel der Bildfläche. Die Ergebnisdateien enthalten zusätzlich Sobel, Grauwertkontrast und Helligkeit als Vergleichsgrößen.
 
-- [PowerPoint mit Vortragsnotizen](praesentation/Bildqualitaet_Bildausschnitt_DE.pptx)
+- [Laplace-Präsentation mit Vortragsnotizen](praesentation/Laplace_Augenhintergrund_DE.pptx)
 - [Videomittelwerte als CSV](ergebnisse/videomittelwerte.csv)
 - [Ergebnisse mit Framezahlen und Softwareversionen](ergebnisse/zusammenfassung.json)
 
@@ -18,7 +18,7 @@ Die Ergebnisdateien enthalten zwei Zusammenfassungen. `alle` umfasst sämtliche 
 
 ## Ergebnis
 
-Die vollständige Auswertung umfasst 87.522 Frames. Außerhalb der angenommenen Flickerfenster bleiben 72.492 Frames. Im zentralen Ausschnitt steigen Sobel und der Betrag der Laplace-Antwort bei allen zehn Videomittelwerten. Der Grauwertkontrast sinkt bei allen zehn. Die Spannweiten der guten und schlechten Aufnahmen überlappen sich auch im Ausschnitt bei allen vier Merkmalen. ESC09 hat im Ausschnitt mit 41,64 weiterhin den höchsten Sobel-Mittelwert der Stichprobe.
+Die vollständige Auswertung umfasst 87.522 Frames. Außerhalb der angenommenen Flickerfenster bleiben 72.492 Frames. Bei allen zehn Videos liegt der Laplace-Mittelwert im zentralen Ausschnitt über dem Vollbildwert. Die Wertebereiche der Qualitätsgruppen überlappen sich in beiden Bildbereichen. Das als schlecht markierte Video ESC09 erreicht mit 8,96 im Vollbild und 11,89 im Ausschnitt jeweils den höchsten Laplace-Mittelwert.
 
 ## Auswertung ausführen
 
