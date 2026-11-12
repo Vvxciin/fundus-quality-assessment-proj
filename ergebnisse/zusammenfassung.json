@@ -1,0 +1,363 @@
+{
+  "annahme_flicker_s": [
+    [
+      50.0,
+      70.0
+    ],
+    [
+      150.0,
+      170.0
+    ],
+    [
+      250.0,
+      270.0
+    ]
+  ],
+  "videos": [
+    {
+      "video": "AT012",
+      "gruppe": "Gut",
+      "frames": 8753,
+      "frames_ausserhalb": 7250,
+      "alle": {
+        "vollbild": {
+          "sobel": 21.754837331709393,
+          "kontrast": 28.952890139654617,
+          "helligkeit": 70.99161475793187,
+          "laplace": 7.495406628331481
+        },
+        "mitte": {
+          "sobel": 23.22586662664445,
+          "kontrast": 14.089821173096466,
+          "helligkeit": 80.664520537403,
+          "laplace": 8.200931922547193
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 22.566292454140655,
+          "kontrast": 31.29794002711512,
+          "helligkeit": 76.33380481355077,
+          "laplace": 7.7103849290921875
+        },
+        "mitte": {
+          "sobel": 24.18155190036225,
+          "kontrast": 15.246138893866364,
+          "helligkeit": 87.25547655784375,
+          "laplace": 8.484423619093237
+        }
+      }
+    },
+    {
+      "video": "ESC01",
+      "gruppe": "Gut",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 21.448503963952234,
+          "kontrast": 24.744765930385874,
+          "helligkeit": 58.99378465725675,
+          "laplace": 7.5173699886013665
+        },
+        "mitte": {
+          "sobel": 25.980719955157948,
+          "kontrast": 12.265007021303138,
+          "helligkeit": 71.99037512325245,
+          "laplace": 9.050983038092193
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 22.459489493836024,
+          "kontrast": 26.94079371085218,
+          "helligkeit": 63.688326687168534,
+          "laplace": 7.811819214847003
+        },
+        "mitte": {
+          "sobel": 27.38146362548579,
+          "kontrast": 13.201912577639666,
+          "helligkeit": 77.84593419201934,
+          "laplace": 9.487529380915031
+        }
+      }
+    },
+    {
+      "video": "ESC04",
+      "gruppe": "Gut",
+      "frames": 8753,
+      "frames_ausserhalb": 7250,
+      "alle": {
+        "vollbild": {
+          "sobel": 20.446515948033305,
+          "kontrast": 29.103318037593294,
+          "helligkeit": 56.48931182671907,
+          "laplace": 7.029644491707773
+        },
+        "mitte": {
+          "sobel": 24.576425438138322,
+          "kontrast": 14.876965936978939,
+          "helligkeit": 73.52927806586223,
+          "laplace": 8.324783817505955
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 21.271159041661445,
+          "kontrast": 31.61496855060863,
+          "helligkeit": 60.817052937087745,
+          "laplace": 7.242411472302021
+        },
+        "mitte": {
+          "sobel": 25.686058302257766,
+          "kontrast": 15.96677820115375,
+          "helligkeit": 79.39284243028945,
+          "laplace": 8.629655600787583
+        }
+      }
+    },
+    {
+      "video": "ESC16",
+      "gruppe": "Gut",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 19.419709746539155,
+          "kontrast": 21.413351595443782,
+          "helligkeit": 54.32331570437114,
+          "laplace": 6.966765297671804
+        },
+        "mitte": {
+          "sobel": 22.88503377280235,
+          "kontrast": 9.81983176494905,
+          "helligkeit": 65.3931649077654,
+          "laplace": 8.093068691882802
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 20.27848445905905,
+          "kontrast": 23.16281197174867,
+          "helligkeit": 58.39221007289052,
+          "laplace": 7.21665654660328
+        },
+        "mitte": {
+          "sobel": 24.061879248450484,
+          "kontrast": 10.451679047252723,
+          "helligkeit": 70.54171071142872,
+          "laplace": 8.454807341455396
+        }
+      }
+    },
+    {
+      "video": "ESC19",
+      "gruppe": "Gut",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 20.867412308517984,
+          "kontrast": 32.35748238205355,
+          "helligkeit": 59.883685732668035,
+          "laplace": 7.255238682987992
+        },
+        "mitte": {
+          "sobel": 25.521154611974325,
+          "kontrast": 16.472224508359478,
+          "helligkeit": 78.42140398001635,
+          "laplace": 8.714646414152945
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 21.64320471446061,
+          "kontrast": 35.10436222106533,
+          "helligkeit": 64.52804608120171,
+          "laplace": 7.4660554073869845
+        },
+        "mitte": {
+          "sobel": 26.700557248339027,
+          "kontrast": 17.72052066121526,
+          "helligkeit": 84.9009094232773,
+          "laplace": 9.056037521245996
+        }
+      }
+    },
+    {
+      "video": "ESC02",
+      "gruppe": "Schlecht",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 20.395222875760705,
+          "kontrast": 27.943890828084083,
+          "helligkeit": 66.1389761785159,
+          "laplace": 6.821028136690464
+        },
+        "mitte": {
+          "sobel": 20.971109534248303,
+          "kontrast": 11.018169814042727,
+          "helligkeit": 72.96791593579329,
+          "laplace": 6.927863679659812
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 21.330175595890545,
+          "kontrast": 30.544265624094354,
+          "helligkeit": 71.62142662637382,
+          "laplace": 7.051473041353961
+        },
+        "mitte": {
+          "sobel": 21.977902703998733,
+          "kontrast": 11.89399239757134,
+          "helligkeit": 79.25468222841303,
+          "laplace": 7.1747199938390755
+        }
+      }
+    },
+    {
+      "video": "ESC05",
+      "gruppe": "Schlecht",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 20.229303374554885,
+          "kontrast": 32.53501890695822,
+          "helligkeit": 65.85739373741669,
+          "laplace": 7.056655651878358
+        },
+        "mitte": {
+          "sobel": 22.5820812276534,
+          "kontrast": 12.780838911932689,
+          "helligkeit": 75.21414918653493,
+          "laplace": 7.888444960375896
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 21.030851038510296,
+          "kontrast": 35.83870891608199,
+          "helligkeit": 72.16177767814715,
+          "laplace": 7.268166466447506
+        },
+        "mitte": {
+          "sobel": 23.495961764533988,
+          "kontrast": 13.750183794511269,
+          "helligkeit": 82.30724117279252,
+          "laplace": 8.14950915696759
+        }
+      }
+    },
+    {
+      "video": "ESC06",
+      "gruppe": "Schlecht",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 15.990933058711388,
+          "kontrast": 27.514620348183108,
+          "helligkeit": 54.27950745544985,
+          "laplace": 5.703354760093633
+        },
+        "mitte": {
+          "sobel": 17.3649180774403,
+          "kontrast": 16.9904515984111,
+          "helligkeit": 65.90178848229749,
+          "laplace": 6.114181189802095
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 16.44714909832842,
+          "kontrast": 30.128818404837713,
+          "helligkeit": 58.54315821479057,
+          "laplace": 5.801490690925433
+        },
+        "mitte": {
+          "sobel": 17.92933207772335,
+          "kontrast": 18.537025689922718,
+          "helligkeit": 71.2895567864617,
+          "laplace": 6.2478834112282575
+        }
+      }
+    },
+    {
+      "video": "ESC09",
+      "gruppe": "Schlecht",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 27.983671473987425,
+          "kontrast": 47.71636013809561,
+          "helligkeit": 68.13383296808395,
+          "laplace": 8.479564263177236
+        },
+        "mitte": {
+          "sobel": 38.50282008492956,
+          "kontrast": 29.556382440444615,
+          "helligkeit": 85.81847031084253,
+          "laplace": 11.0849627250103
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 29.885353075314164,
+          "kontrast": 52.26617442471039,
+          "helligkeit": 74.0071123425631,
+          "laplace": 8.956004932406591
+        },
+        "mitte": {
+          "sobel": 41.63784347019628,
+          "kontrast": 32.54105949763982,
+          "helligkeit": 93.68470333658217,
+          "laplace": 11.886890079240409
+        }
+      }
+    },
+    {
+      "video": "ESC18",
+      "gruppe": "Schlecht",
+      "frames": 8752,
+      "frames_ausserhalb": 7249,
+      "alle": {
+        "vollbild": {
+          "sobel": 19.468750675521143,
+          "kontrast": 34.421604786165034,
+          "helligkeit": 54.123679700206196,
+          "laplace": 6.6357963869722525
+        },
+        "mitte": {
+          "sobel": 22.515897651088245,
+          "kontrast": 27.91916454452182,
+          "helligkeit": 68.70466418522338,
+          "laplace": 7.511573884523068
+        }
+      },
+      "ausserhalb": {
+        "vollbild": {
+          "sobel": 20.13867552125204,
+          "kontrast": 37.0780697331268,
+          "helligkeit": 57.71810194006625,
+          "laplace": 6.796912072748677
+        },
+        "mitte": {
+          "sobel": 23.4473226305551,
+          "kontrast": 30.127222379607947,
+          "helligkeit": 74.02350610381126,
+          "laplace": 7.74850349196739
+        }
+      }
+    }
+  ],
+  "versionen": {
+    "opencv": "5.0.0",
+    "pyav": "19.0.2",
+    "numpy": "2.3.5"
+  }
+}
