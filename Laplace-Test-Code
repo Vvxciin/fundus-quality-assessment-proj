@@ -1,6 +1,0 @@
-Code für die Untersuchung des Videos mit dem Lapalce-Filter (mit vorheriger Anwendung eines Gauss-Filters zur Rauschunterdrückung)
-(OpenCV Version 4.12 für C++)
-
-            cv::GaussianBlur(inputFrame, rawFrame, cv::Size(3,3), 0, 0);
-            cv::Laplacian(inputFrame, rawFrame, CV_16S, 3);
-            cv::convertScaleAbs(rawFrame, lapFrame);
